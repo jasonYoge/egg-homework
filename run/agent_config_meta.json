@@ -15,6 +15,13 @@
     "app": "/Users/ywj/Work/Node/egg-homework/node_modules/egg-mysql/config/config.default.js",
     "agent": "/Users/ywj/Work/Node/egg-homework/node_modules/egg-mysql/config/config.default.js"
   },
+  "view": {
+    "defaultViewEngine": "/Users/ywj/Work/Node/egg-homework/config/config.default.js",
+    "root": "/Users/ywj/Work/Node/egg-homework/node_modules/egg-view/config/config.default.js",
+    "cache": "/Users/ywj/Work/Node/egg-homework/node_modules/egg-view/config/config.local.js",
+    "defaultExtension": "/Users/ywj/Work/Node/egg-homework/node_modules/egg-view/config/config.default.js",
+    "mapping": "/Users/ywj/Work/Node/egg-homework/node_modules/egg-view/config/config.default.js"
+  },
   "onerror": {
     "errorPageUrl": "/Users/ywj/Work/Node/egg-homework/node_modules/egg-onerror/config/config.default.js",
     "appErrorFilter": "/Users/ywj/Work/Node/egg-homework/node_modules/egg-onerror/config/config.default.js"
@@ -124,12 +131,13 @@
     "callback": "/Users/ywj/Work/Node/egg-homework/node_modules/egg-jsonp/config/config.default.js",
     "csrf": "/Users/ywj/Work/Node/egg-homework/node_modules/egg-jsonp/config/config.default.js"
   },
-  "view": {
-    "root": "/Users/ywj/Work/Node/egg-homework/node_modules/egg-view/config/config.default.js",
-    "cache": "/Users/ywj/Work/Node/egg-homework/node_modules/egg-view/config/config.local.js",
-    "defaultExtension": "/Users/ywj/Work/Node/egg-homework/node_modules/egg-view/config/config.default.js",
-    "defaultViewEngine": "/Users/ywj/Work/Node/egg-homework/node_modules/egg-view/config/config.default.js",
-    "mapping": "/Users/ywj/Work/Node/egg-homework/node_modules/egg-view/config/config.default.js"
+  "ejs": {
+    "root": "/Users/ywj/Work/Node/egg-homework/node_modules/egg-view-ejs/config/config.default.js",
+    "cache": "/Users/ywj/Work/Node/egg-homework/node_modules/egg-view-ejs/config/config.local.js",
+    "debug": "/Users/ywj/Work/Node/egg-homework/node_modules/egg-view-ejs/config/config.default.js",
+    "compileDebug": "/Users/ywj/Work/Node/egg-homework/node_modules/egg-view-ejs/config/config.default.js",
+    "delimiter": "/Users/ywj/Work/Node/egg-homework/node_modules/egg-view-ejs/config/config.default.js",
+    "strict": "/Users/ywj/Work/Node/egg-homework/node_modules/egg-view-ejs/config/config.default.js"
   },
   "env": "/Users/ywj/Work/Node/egg-homework/node_modules/egg/config/config.default.js",
   "name": "/Users/ywj/Work/Node/egg-homework/node_modules/egg/config/config.default.js",
@@ -145,7 +153,8 @@
     "dependencies": {
       "egg": "/Users/ywj/Work/Node/egg-homework/node_modules/egg/config/config.default.js",
       "egg-mysql": "/Users/ywj/Work/Node/egg-homework/node_modules/egg/config/config.default.js",
-      "egg-scripts": "/Users/ywj/Work/Node/egg-homework/node_modules/egg/config/config.default.js"
+      "egg-scripts": "/Users/ywj/Work/Node/egg-homework/node_modules/egg/config/config.default.js",
+      "egg-view-ejs": "/Users/ywj/Work/Node/egg-homework/node_modules/egg/config/config.default.js"
     },
     "devDependencies": {
       "autod": "/Users/ywj/Work/Node/egg-homework/node_modules/egg/config/config.default.js",

@@ -31,6 +31,7 @@
         "/Users/ywj/Work/Node/egg-homework/node_modules/egg-jsonp/config/locales",
         "/Users/ywj/Work/Node/egg-homework/node_modules/egg-view/config/locales",
         "/Users/ywj/Work/Node/egg-homework/node_modules/egg-mysql/config/locales",
+        "/Users/ywj/Work/Node/egg-homework/node_modules/egg-view-ejs/config/locales",
         "/Users/ywj/Work/Node/egg-homework/node_modules/egg/config/locales",
         "/Users/ywj/Work/Node/egg-homework/config/locales"
       ],
@@ -143,10 +144,12 @@
       "csrf": false
     },
     "view": {
-      "root": "/Users/ywj/Work/Node/egg-homework/app/view",
+      "root": [
+        "/Users/ywj/Work/Node/egg-homework/app/view"
+      ],
       "cache": false,
       "defaultExtension": ".html",
-      "defaultViewEngine": "",
+      "defaultViewEngine": "ejs",
       "mapping": {}
     },
     "mysql": {
@@ -164,6 +167,14 @@
         "database": "homework_db"
       }
     },
+    "ejs": {
+      "root": "/Users/ywj/Work/Node/egg-homework/app/view",
+      "cache": false,
+      "debug": false,
+      "compileDebug": true,
+      "delimiter": null,
+      "strict": false
+    },
     "env": "local",
     "name": "egg-homework",
     "keys": "<String len: 23>",
@@ -179,7 +190,8 @@
       "dependencies": {
         "egg": "^1.7.0",
         "egg-mysql": "^3.0.0",
-        "egg-scripts": "^1.1.1"
+        "egg-scripts": "^1.1.1",
+        "egg-view-ejs": "^1.1.0"
       },
       "devDependencies": {
         "autod": "^2.9.0",
@@ -484,6 +496,19 @@
       "from": "/Users/ywj/Work/Node/egg-homework/config/plugin.js",
       "path": "/Users/ywj/Work/Node/egg-homework/node_modules/egg-mysql",
       "version": "3.0.0"
+    },
+    "ejs": {
+      "enable": true,
+      "package": "egg-view-ejs",
+      "name": "ejs",
+      "dependencies": [
+        "view"
+      ],
+      "optionalDependencies": [],
+      "env": [],
+      "from": "/Users/ywj/Work/Node/egg-homework/config/plugin.js",
+      "path": "/Users/ywj/Work/Node/egg-homework/node_modules/egg-view-ejs",
+      "version": "1.1.0"
     }
   }
 }

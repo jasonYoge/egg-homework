@@ -3,11 +3,15 @@
 module.exports = app => {
   class HomeController extends app.Controller {
     * index() {
-    	const user = yield this.service.user.find(1001);
-    	this.ctx.body = {
-    		status: 0,
-    		message: user
+    	const { ctx, service } = this;
+    	let data = {
+    		title: '首页',
+    		isLogin: false,
     	};
+
+    	const list = yield service.sheet.list();
+    	data.list = list;
+    	ctx.body = yield ctx.renderView('../view/home.tpl', data);
     }
   }
   return HomeController;

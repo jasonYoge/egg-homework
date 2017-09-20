@@ -1,0 +1,40 @@
+.container-fluid {
+	margin-top: 90px;
+}
+
+a:hover, a:visited, a:link, a:active {
+	text-decoration: none;
+}
+
+.list-panel {
+	width: 100%;
+	display: flex;
+	flex-direction: row;
+	box-shadow: 0px 2px 5px 0px #aaa;
+	padding: 50px;
+}
+
+.row + .row {
+	margin-top: 30px;
+}
+
+.list-panel-logo {
+	width: 35%;
+	height: 200px;
+	margin-right: 50px;
+	overflow: hidden;
+	position: relative;
+}
+
+.list-panel-logo img {
+	position: absolute;
+	transform-origin: 550% 550%;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	transition: transform .3s ease;
+}
+
+.list-panel-logo:hover img {
+	transform: scale(1.1);
+}

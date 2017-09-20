@@ -19,5 +19,9 @@ module.exports = appInfo => {
   	}
   };
 
+  config.view = {
+  	defaultViewEngine: 'ejs',
+  };
+
   return config;
 };

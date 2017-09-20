@@ -1950,6 +1950,12 @@ egg-utils@^2.2.0:
   dependencies:
     mkdirp "^0.5.1"
 
+egg-view-ejs@^1.1.0:
+  version "1.1.0"
+  resolved "https://registry.yarnpkg.com/egg-view-ejs/-/egg-view-ejs-1.1.0.tgz#dbadd32565358816a741d1f1bb802cec29eca0b7"
+  dependencies:
+    ejs "^2.5.5"
+
 egg-view@^1.1.1:
   version "1.1.2"
   resolved "https://registry.yarnpkg.com/egg-view/-/egg-view-1.1.2.tgz#8fe735aa520546b920cdc9b382682f63ec21066e"
@@ -2006,6 +2012,10 @@ egg@^1.7.0:
     urllib "^2.23.0"
     utility "^1.12.0"
     ylru "^1.1.0"
+
+ejs@^2.5.5:
+  version "2.5.7"
+  resolved "https://registry.yarnpkg.com/ejs/-/ejs-2.5.7.tgz#cc872c168880ae3c7189762fd5ffc00896c9518a"
 
 emoji-regex@^6.1.0:
   version "6.5.1"
