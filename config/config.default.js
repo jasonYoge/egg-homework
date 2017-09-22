@@ -19,6 +19,13 @@ module.exports = appInfo => {
   	}
   };
 
+  config.security = {
+  	csrf: {
+  		queryName: '_csrf',
+  		bodyName: '_csrf',
+  	}
+  };
+
   config.view = {
   	defaultViewEngine: 'ejs',
   };

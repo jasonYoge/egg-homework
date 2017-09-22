@@ -6,7 +6,19 @@ module.exports = app => {
 			const user = yield this.app.mysql.get(`users`, {
 				user_id: userId
 			});
-			return { user };
+			return user;
+		}
+
+		* validate (username, password) {
+			const user = yield this.app.mysql.get(`users`, {
+				user_name: username,
+				user_password: password,
+			});
+
+			if (user && user.user_id)
+				return user.user_id;
+			else
+				return false;
 		}
 	}
 

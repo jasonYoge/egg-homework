@@ -15,6 +15,50 @@
     "app": "/Users/ywj/Work/Node/egg-homework/node_modules/egg-mysql/config/config.default.js",
     "agent": "/Users/ywj/Work/Node/egg-homework/node_modules/egg-mysql/config/config.default.js"
   },
+  "security": {
+    "csrf": {
+      "queryName": "/Users/ywj/Work/Node/egg-homework/config/config.default.js",
+      "bodyName": "/Users/ywj/Work/Node/egg-homework/config/config.default.js",
+      "enable": "/Users/ywj/Work/Node/egg-homework/node_modules/egg-security/config/config.default.js",
+      "useSession": "/Users/ywj/Work/Node/egg-homework/node_modules/egg-security/config/config.default.js",
+      "ignoreJSON": "/Users/ywj/Work/Node/egg-homework/node_modules/egg-security/config/config.default.js",
+      "cookieName": "/Users/ywj/Work/Node/egg-homework/node_modules/egg-security/config/config.default.js",
+      "sessionName": "/Users/ywj/Work/Node/egg-homework/node_modules/egg-security/config/config.default.js",
+      "headerName": "/Users/ywj/Work/Node/egg-homework/node_modules/egg-security/config/config.default.js"
+    },
+    "domainWhiteList": "/Users/ywj/Work/Node/egg-homework/node_modules/egg-security/config/config.default.js",
+    "protocolWhiteList": "/Users/ywj/Work/Node/egg-homework/node_modules/egg-security/config/config.default.js",
+    "defaultMiddleware": "/Users/ywj/Work/Node/egg-homework/node_modules/egg-security/config/config.default.js",
+    "xframe": {
+      "enable": "/Users/ywj/Work/Node/egg-homework/node_modules/egg-security/config/config.default.js",
+      "value": "/Users/ywj/Work/Node/egg-homework/node_modules/egg-security/config/config.default.js"
+    },
+    "hsts": {
+      "enable": "/Users/ywj/Work/Node/egg-homework/node_modules/egg-security/config/config.local.js",
+      "maxAge": "/Users/ywj/Work/Node/egg-homework/node_modules/egg-security/config/config.default.js",
+      "includeSubdomains": "/Users/ywj/Work/Node/egg-homework/node_modules/egg-security/config/config.default.js"
+    },
+    "dta": {
+      "enable": "/Users/ywj/Work/Node/egg-homework/node_modules/egg-security/config/config.default.js"
+    },
+    "methodnoallow": {
+      "enable": "/Users/ywj/Work/Node/egg-homework/node_modules/egg-security/config/config.default.js"
+    },
+    "noopen": {
+      "enable": "/Users/ywj/Work/Node/egg-homework/node_modules/egg-security/config/config.default.js"
+    },
+    "nosniff": {
+      "enable": "/Users/ywj/Work/Node/egg-homework/node_modules/egg-security/config/config.default.js"
+    },
+    "xssProtection": {
+      "enable": "/Users/ywj/Work/Node/egg-homework/node_modules/egg-security/config/config.default.js",
+      "value": "/Users/ywj/Work/Node/egg-homework/node_modules/egg-security/config/config.default.js"
+    },
+    "csp": {
+      "enable": "/Users/ywj/Work/Node/egg-homework/node_modules/egg-security/config/config.default.js",
+      "policy": "/Users/ywj/Work/Node/egg-homework/node_modules/egg-security/config/config.default.js"
+    }
+  },
   "view": {
     "defaultViewEngine": "/Users/ywj/Work/Node/egg-homework/config/config.default.js",
     "root": "/Users/ywj/Work/Node/egg-homework/node_modules/egg-view/config/config.default.js",
@@ -56,50 +100,6 @@
     "files": "/Users/ywj/Work/Node/egg-homework/node_modules/egg-multipart/config/config.default.js",
     "fileExtensions": "/Users/ywj/Work/Node/egg-homework/node_modules/egg-multipart/config/config.default.js",
     "whitelist": "/Users/ywj/Work/Node/egg-homework/node_modules/egg-multipart/config/config.default.js"
-  },
-  "security": {
-    "domainWhiteList": "/Users/ywj/Work/Node/egg-homework/node_modules/egg-security/config/config.default.js",
-    "protocolWhiteList": "/Users/ywj/Work/Node/egg-homework/node_modules/egg-security/config/config.default.js",
-    "defaultMiddleware": "/Users/ywj/Work/Node/egg-homework/node_modules/egg-security/config/config.default.js",
-    "csrf": {
-      "enable": "/Users/ywj/Work/Node/egg-homework/node_modules/egg-security/config/config.default.js",
-      "useSession": "/Users/ywj/Work/Node/egg-homework/node_modules/egg-security/config/config.default.js",
-      "ignoreJSON": "/Users/ywj/Work/Node/egg-homework/node_modules/egg-security/config/config.default.js",
-      "cookieName": "/Users/ywj/Work/Node/egg-homework/node_modules/egg-security/config/config.default.js",
-      "sessionName": "/Users/ywj/Work/Node/egg-homework/node_modules/egg-security/config/config.default.js",
-      "headerName": "/Users/ywj/Work/Node/egg-homework/node_modules/egg-security/config/config.default.js",
-      "bodyName": "/Users/ywj/Work/Node/egg-homework/node_modules/egg-security/config/config.default.js",
-      "queryName": "/Users/ywj/Work/Node/egg-homework/node_modules/egg-security/config/config.default.js"
-    },
-    "xframe": {
-      "enable": "/Users/ywj/Work/Node/egg-homework/node_modules/egg-security/config/config.default.js",
-      "value": "/Users/ywj/Work/Node/egg-homework/node_modules/egg-security/config/config.default.js"
-    },
-    "hsts": {
-      "enable": "/Users/ywj/Work/Node/egg-homework/node_modules/egg-security/config/config.local.js",
-      "maxAge": "/Users/ywj/Work/Node/egg-homework/node_modules/egg-security/config/config.default.js",
-      "includeSubdomains": "/Users/ywj/Work/Node/egg-homework/node_modules/egg-security/config/config.default.js"
-    },
-    "dta": {
-      "enable": "/Users/ywj/Work/Node/egg-homework/node_modules/egg-security/config/config.default.js"
-    },
-    "methodnoallow": {
-      "enable": "/Users/ywj/Work/Node/egg-homework/node_modules/egg-security/config/config.default.js"
-    },
-    "noopen": {
-      "enable": "/Users/ywj/Work/Node/egg-homework/node_modules/egg-security/config/config.default.js"
-    },
-    "nosniff": {
-      "enable": "/Users/ywj/Work/Node/egg-homework/node_modules/egg-security/config/config.default.js"
-    },
-    "xssProtection": {
-      "enable": "/Users/ywj/Work/Node/egg-homework/node_modules/egg-security/config/config.default.js",
-      "value": "/Users/ywj/Work/Node/egg-homework/node_modules/egg-security/config/config.default.js"
-    },
-    "csp": {
-      "enable": "/Users/ywj/Work/Node/egg-homework/node_modules/egg-security/config/config.default.js",
-      "policy": "/Users/ywj/Work/Node/egg-homework/node_modules/egg-security/config/config.default.js"
-    }
   },
   "helper": {
     "shtml": "/Users/ywj/Work/Node/egg-homework/node_modules/egg-security/config/config.default.js"
@@ -154,7 +154,8 @@
       "egg": "/Users/ywj/Work/Node/egg-homework/node_modules/egg/config/config.default.js",
       "egg-mysql": "/Users/ywj/Work/Node/egg-homework/node_modules/egg/config/config.default.js",
       "egg-scripts": "/Users/ywj/Work/Node/egg-homework/node_modules/egg/config/config.default.js",
-      "egg-view-ejs": "/Users/ywj/Work/Node/egg-homework/node_modules/egg/config/config.default.js"
+      "egg-view-ejs": "/Users/ywj/Work/Node/egg-homework/node_modules/egg/config/config.default.js",
+      "stream-wormhole": "/Users/ywj/Work/Node/egg-homework/node_modules/egg/config/config.default.js"
     },
     "devDependencies": {
       "autod": "/Users/ywj/Work/Node/egg-homework/node_modules/egg/config/config.default.js",
